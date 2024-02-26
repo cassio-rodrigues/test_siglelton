@@ -15,3 +15,8 @@ class LazySingletonTeste:
             cls.__instance = LazySingletonTeste()
         return cls.__instance
 
+s1 = LazySingletonTeste()
+
+print(f"criando objeto: {LazySingletonTeste.get_instance()}")
+
+s2 = LazySingletonTeste()
