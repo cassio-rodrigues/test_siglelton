@@ -9,3 +9,4 @@ usos comuns:
     - conexão com banco de dados
     
 
+faz mais sentido usá-lo em situações onde serviços precisem ser instaciados apenas 1 vez. Provavelmente conectores ou até mesmo dependencias menores.
